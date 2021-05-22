@@ -196,19 +196,24 @@ footer h6 {
 
 /*Contact page */
 .contact .contact-section {
-  margin: 200px auto;
+  margin: 100px auto;
   text-align: center;
+}
+
+.contact .contact-section h2,
+h4 {
+  color: rgb(179, 62, 116);
 }
 .contact .contact-section ul {
   text-align: center;
-  margin: auto;
+  margin: 10vh auto;
   display: flex;
   flex-direction: column;
 }
 
 .contact .contact-section ul li {
   list-style-type: none;
-  margin: 10%;
+  margin: 5%;
 }
 
 /*Small screen*/
@@ -221,6 +226,8 @@ footer h6 {
 
   .main-section p {
     font-size: 30px;
+    padding: 15%;
+    text-align: center;
   }
 
   .second-section {
