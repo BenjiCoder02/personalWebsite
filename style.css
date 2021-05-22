@@ -177,6 +177,7 @@ footer .social {
 }
 
 footer .social a {
+  color: grey;
   margin: auto 3%;
   font-size: 20px;
   transition: all 0.4s ease;
@@ -194,21 +195,15 @@ footer h6 {
 }
 
 /*Contact page */
-
-.contact h2 {
+.contact .contact-section {
+  margin: 200px auto;
   text-align: center;
-  margin: 15%;
 }
-
 .contact .contact-section ul {
-  float: right;
-  margin-right: 25%;
+  text-align: center;
+  margin: auto;
   display: flex;
   flex-direction: column;
-}
-
-.contact .contact-section img {
-  margin-left: 15%;
 }
 
 .contact .contact-section ul li {
