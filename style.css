@@ -180,4 +180,19 @@ h1 {
   .navbar a {
     font-size: 15px;
   }
+
+  .second-section {
+    font-size: 20px;
+    margin: 30px;
+    text-align: left;
+    height: 550px;
+    font-size: 17px;
+  }
+
+  .second-section img {
+    width: 150px;
+    float: left;
+    margin-right: 13px;
+    margin-bottom: 13px;
+  }
 }
